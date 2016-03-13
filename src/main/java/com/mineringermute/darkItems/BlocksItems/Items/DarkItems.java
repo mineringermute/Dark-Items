@@ -1,0 +1,35 @@
+package com.mineringermute.darkItems.BlocksItems.Items;
+
+import com.mineringermute.darkItems.darkItems;
+import com.mineringermute.darkItems.BlocksItems.Items.Classes.Sword_Dark_Steel;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer.EnumStatus;
+import net.minecraft.item.EnumAction;
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.util.Util.EnumOS;
+import net.minecraftforge.common.util.EnumHelper;
+
+public class DarkItems {
+                                                                                                                        //1	
+	public static ToolMaterial DarkItemsMaterial1 = EnumHelper.addToolMaterial("DarkItemsMaterial1", 30, 1500000000, 5, 7, 30); 
+	public static ToolMaterial DarkItemsMaterial2 = EnumHelper.addToolMaterial("DarkItemsMaterial1", 40, 2000000000, 6, 26, 40); 
+	public static Item Raw_Dark_Steel;
+	public static Item Ingot_Dark_Steel;
+	public static Item Sword_Dark_SteelLocal;
+	public static Item Sword_Dark_SteelLocal2;
+	public static Item Stick_Obsidian;
+	
+	
+	public static final void init() {
+		Raw_Dark_Steel = new Item().setUnlocalizedName("Raw_Dark_Steel").setCreativeTab(darkitemsCTabs.tab).setTextureName(darkItems.MODID + ":Raw_Dark_Steel");; GameRegistry.registerItem(Raw_Dark_Steel, "Raw_Dark_Steel");
+		Ingot_Dark_Steel = new Item().setUnlocalizedName("Ingot_Dark_Steel").setCreativeTab(darkitemsCTabs.tab).setTextureName(darkItems.MODID + ":Ingot_Dark_Steel");; GameRegistry.registerItem(Ingot_Dark_Steel, "Ingot_Dark_Steel");
+		Stick_Obsidian = new Item().setUnlocalizedName("Stick_Obsidian").setCreativeTab(darkitemsCTabs.tab).setTextureName(darkItems.MODID + ":Stick_Obsidian");; GameRegistry.registerItem(Stick_Obsidian, "Stick_Obsidian");
+		GameRegistry.registerItem(Sword_Dark_SteelLocal = new Sword_Dark_Steel("Sword_Dark_Steel", DarkItemsMaterial1), "Sword_Dark_Steel");
+		GameRegistry.registerItem(Sword_Dark_SteelLocal2 = new Sword_Dark_Steel("Sword_Dark_Steel2", DarkItemsMaterial2), "Sword_Dark_Steel2");
+	}
+	
+	
+}

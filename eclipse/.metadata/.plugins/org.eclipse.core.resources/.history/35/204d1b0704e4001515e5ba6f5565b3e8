@@ -1,0 +1,7 @@
+package com.mineringermute.darkItems.BlocksItems.Blocks.Classes;
+
+import net.minecraft.block.Block;
+
+public class Ore_Dark_Steel extends Block {
+
+}

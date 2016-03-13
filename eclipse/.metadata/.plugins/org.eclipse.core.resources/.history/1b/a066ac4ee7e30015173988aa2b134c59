@@ -1,0 +1,21 @@
+package com.mineringermute.darkItems.BlocksItems.Items;
+
+import com.mineringermute.darkItems.darkItems;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class DarkItems {
+
+	
+	public static Item Raw_Dark_Steel;
+	
+	
+	public static final void init() {
+		Raw_Dark_Steel = new Item().setUnlocalizedName("Raw_Dark_Steel").setCreativeTab(CreativeTabs.tabMaterials).setTextureName(darkItems.MODID + ":Raw_Dark_Steel");;
+		GameRegistry.registerItem(Raw_Dark_Steel, "Raw_Dark_Steel");
+    }
+	
+	
+}

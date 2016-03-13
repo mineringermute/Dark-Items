@@ -1,0 +1,13 @@
+package com.mineringermute.darkItems.BlocksItems.Blocks;
+
+import net.minecraft.block.Block;
+
+public final class DarkBlocks {
+
+    public static Block Dark_Steel_Block;
+
+    public static final void init() {
+    	
+    }
+
+    }

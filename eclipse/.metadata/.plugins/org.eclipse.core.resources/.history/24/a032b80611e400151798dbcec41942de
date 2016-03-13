@@ -1,0 +1,18 @@
+package com.mineringermute.darkItems.BlocksItems.Items.Classes;
+
+import com.mineringermute.darkItems.darkItems;
+import com.mineringermute.darkItems.BlocksItems.Items.DarkItems;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.ItemSword;
+
+public class Sword_Dark_Steel extends ItemSword {
+	
+	public Sword_Dark_Steel(ToolMaterial material) {
+        super(material);
+        this.setUnlocalizedName("Sword_Dark_Steel");
+        this.setTextureName(darkItems.MODID + ":" + "Sword_Dark_Steel");
+        GameRegistry.registerItem(Sword_Dark_Steel = new Sword_Dark_Steel("Sword_Dark_Steel", DarkItems.DarkItemsMaterial), "Sword_Dark_Steel");
+}
+	
+}

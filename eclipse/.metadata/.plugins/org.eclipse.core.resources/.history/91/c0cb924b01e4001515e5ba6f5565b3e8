@@ -1,0 +1,22 @@
+package com.mineringermute.darkItems.BlocksItems.Blocks.material;
+
+import com.mineringermute.darkItems.darkItems;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class darkMaterials extends Block {
+
+	public darkMaterials(String darkSteelBlock, Material material) {
+		super(material);
+		this.setBlockName(darkSteelBlock);
+        this.setCreativeTab(CreativeTabs.tabBlock);
+        this.setBlockTextureName(darkItems.MODID + ":" + darkSteelBlock);
+        this.setHardness(5.0F);
+        this.setResistance(30.0F);
+        this.setLightLevel(6.0F);
+        this.setHarvestLevel("pickaxe", 30);
+        this.setStepSound(soundTypeMetal);
+	}
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.mineringermute.darkItems.Run.Proxys.CommonProxy"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block.SoundType"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="com.mineringermute.darkItems.BlocksItems.Blocks.material.darkMaterials"/>
+<fullyQualifiedTypeName name="com.mineringermute.darkItems.BlocksItems.Blocks.DarkBlocks"/>
+<fullyQualifiedTypeName name="net.minecraft.item.EnumAction"/>
+<fullyQualifiedTypeName name="net.minecraft.util.Util.EnumOS"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer.EnumStatus"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.ToolMaterial"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="com.mineringermute.darkItems.darkItems"/>
+<fullyQualifiedTypeName name="com.mineringermute.darkItems.BlocksItems.Items.Classes.Sword_Dark_Steel"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="com.mineringermute.darkItems.BlocksItems.Items.DarkItems"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="com.mineringermute.darkItems.BlocksItems.Items.darkitemsCTabs"/>
+</qualifiedTypeNameHistroy>

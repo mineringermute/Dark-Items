@@ -1,0 +1,22 @@
+package com.mineringermute.darkItems.BlocksItems;
+
+import com.mineringermute.darkItems.BlocksItems.Blocks.DarkBlocks;
+import com.mineringermute.darkItems.BlocksItems.Items.DarkItems;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.ItemStack;
+
+public class Crafting {
+
+	public static void  init() {
+		GameRegistry.addRecipe(new ItemStack(DarkBlocks.Block_Dark_Steel), new Object[] {
+				"###",
+				"###",
+				"###",
+				'#', DarkItems.Ingot_Dark_Steel});
+		
+		GameRegistry.addSmelting(DarkItems.Raw_Dark_Steel, new ItemStack(DarkItems.Ingot_Dark_Steel), 3.0F);
+	}
+	
+
+}

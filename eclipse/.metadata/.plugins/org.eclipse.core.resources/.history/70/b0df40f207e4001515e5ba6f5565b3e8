@@ -1,0 +1,7 @@
+package com.mineringermute.darkItems.BlocksItems.Items;
+
+import net.minecraft.item.Item.ToolMaterial;
+
+public class DarkSteelMaterial {
+	public static ToolMaterial Sword_Dark_Steel = EnumHelper.addToolMaterial("Sword_Dark_Steel", 30, 1500000000, 5.0F, 10.0F, 30);
+}

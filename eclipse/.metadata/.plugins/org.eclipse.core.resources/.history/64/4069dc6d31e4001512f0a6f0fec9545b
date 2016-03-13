@@ -1,0 +1,17 @@
+package com.mineringermute.darkItems.BlocksItems.Items.Classes;
+
+import com.mineringermute.darkItems.darkItems;
+import com.mineringermute.darkItems.BlocksItems.Items.darkitemsCTabs;
+
+import net.minecraft.item.ItemSword;
+
+public class Sword_Dark_Steel2 extends ItemSword {
+
+	public Sword_Dark_Steel2(String Sword_Dark_Steel2, ToolMaterial material) {
+		super(material);
+		this.setUnlocalizedName(Sword_Dark_Steel2);
+		this.setTextureName(darkItems.MODID + ":" + "Sword_Dark_Steel");
+		this.setCreativeTab(darkitemsCTabs.tab);
+	}
+
+}

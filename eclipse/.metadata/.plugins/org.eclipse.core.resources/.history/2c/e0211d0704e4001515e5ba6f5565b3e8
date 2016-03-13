@@ -1,0 +1,18 @@
+package com.mineringermute.darkItems.BlocksItems.Blocks;
+
+import com.mineringermute.darkItems.darkItems;
+import com.mineringermute.darkItems.BlocksItems.Blocks.Classes.Block_Dark_Steel;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public final class DarkBlocks {
+
+    public static Block Block_Dark_Steel;
+
+    public static final void init() {
+    	GameRegistry.registerBlock(Block_Dark_Steel = new Block_Dark_Steel("Block_Dark_Steel", Material.iron), "Block_Dark_Steel");
+    }
+
+    }

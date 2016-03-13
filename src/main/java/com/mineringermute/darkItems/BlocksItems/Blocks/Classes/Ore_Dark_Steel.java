@@ -1,0 +1,23 @@
+package com.mineringermute.darkItems.BlocksItems.Blocks.Classes;
+
+import com.mineringermute.darkItems.darkItems;
+import com.mineringermute.darkItems.BlocksItems.Items.darkitemsCTabs;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class Ore_Dark_Steel extends Block {
+	
+	public Ore_Dark_Steel(String Ore_Dark_Steel, Material material) {
+		super(material);
+		this.setBlockName(Ore_Dark_Steel);
+        this.setCreativeTab(darkitemsCTabs.tab);
+        this.setBlockTextureName(darkItems.MODID + ":" + Ore_Dark_Steel);
+        this.setHardness(5.0F);
+        this.setResistance(20.0F);
+        this.setLightLevel(3.0F);
+        this.setHarvestLevel("pickaxe", 30);
+        this.setStepSound(soundTypeMetal);
+	}
+}

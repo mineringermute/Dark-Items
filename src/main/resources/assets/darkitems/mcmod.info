@@ -1,0 +1,16 @@
+[
+{
+  "modid": "darkItems",
+  "name": "Dark Items",
+  "description": "A mod That adds cool new dark items",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "minering",
+  "updateUrl": "",
+  "authorList": ["Mineringermute"],
+  "credits": "Mineringermute",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
